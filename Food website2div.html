@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Div Example</title>
+    <style>
+        .container {
+            border: 2px solid black;
+            padding: 20px;
+            background-color: white;
+        }
+        *{
+        padding:0;
+        margin:0;
+        box-sizing: border-box;
+    }
+    
+    </style>
+</head>
+<style>
+    nav{
+        display:flex;
+        justify-content: space-between;
+        align-items:center;
+        width: 100%;
+        height:100px;
+        background-color:white;
+        color:black;
+        padding:20px;
+    }
+
+        .right ul{
+            display:Flex;
+         }
+    
+         .right ul { 
+            list-style: none;
+          }
+         .right ul li{
+            margin-right:50px;
+         }
+        </style>
+        <body>
+            <body>
+                
+                <div class="container">
+                 <Nav>        
+                <h1><img width="120" height="100" src="https://th.bing.com/th?id=OIP.pEkCTHsUHUshAsoCguPjDwHaEK&w=333&h=187&c=8&rs=1&qlt=90&o=6&dpr=1.9&pid=3.1&rm=2" alt="">
+                </h1>
+                <div class="right">
+                    <ul>
+                        <img width="20" hight="10" src="https://th.bing.com/th?id=OIP.qLQCPaWxeYifioMDyQUoJwHaHa&w=250&h=250&c=8&rs=1&qlt=90&o=6&dpr=1.9&pid=3.1&rm=2" alt="">
+                        <li><input type="search" placeholder="search"></li>
+                        <img width="25" height="25" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAOEAAADhCAMAAAAJbSJIAAAAkFBMVEX///8kHiAAAADp6OgNAAWioqKfn58PAAfj4+MGAAC8u7zMzMzm5eYiHyAiHB4hGhxIQ0QvKSsVDA/d3d0pIyWqqapvbG3w8PAaExUbGBnS0dH39vcJBQgzMTIQDQ+LiYp7enpISEhgXF2VlZVmZGU/PT4VFRW1s7Q3NTWBfX7ExcVRUVFQTU4lJCQsKytoaGgLxA0AAAAEVElEQVR4nO3ca2OaMBgFYImoUOUqCl5ArGW6Xuz//3eDJLjO4q0GQ9h5PnWtspxC3+RNunU6AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADwvxv2h7KHUK8p0clU9iBqFK51TdMGbih7IHUZR5FWiH6NZQ+lHlviaIxDtrIHU4cVsbSSRTayhyPc4pnQaDPCnlTyIntEgnV3Pg22XBvrJf3I33VlD0qkeXnnipliSli9MeeyhyXOhNUYm/TpH/vEZvVmInlcwvwmvIK+8k+88qpKfksdlyiLN5M9lYFx+JwRsKfWfFtIHJkgRsBqjPn+NczincX2g5G0kQly8oH89ugqqs+m+aqiclR+FDUtp/mqiWFOZtZhClFT6C5phCSubibCOKHfgOVa0XoznvGC+XzyJc988p8p2Ww8lTVmdeZFKzr529pAwXqzKWvl09mX0e+D52YfytWbFzYLRtGl52/sR5rrOXaQPmJYwoR5K+EVGxbZ5Q2LMIvc/D7a8btCmxtzs6gx3rXzwDQO6P1eKtNsbFnvYF/dyPdpwvwNimxurG5fjw33lqVMs7F443OcZlx+8UH3I2FTS/ObjdHeL+6G9W8rcVneY9H3+fuGb27wVsIi6c1vTdkifUYave3fu2d/YkLfbFmkJ3xcwqRljfnZbRiW67xU7LCEWax53/7jH6WRV+45NrLejB2+Y/h8x/DKZsO5pRA/yFWtxGWr6xbsEmzKGnPvsuTmBdGDvPCny7+/lS2aDfowNOlkI8xYhUiuaCWuuRo/2RByNSHmyYxN85+CLvjJJ/+kIc3Glu+ZJamwS6YJ36NrRLPBq1/e7opbi/QG/Jp3VmYR+MknTShuq6VfJsxnV2EX/ZlyFVJbQs33pDYb5UrSryWhf9cqV4geq3k2Wfk1JPRX5eWlnaRODq1ESGpISMJheTguK+KePqLJftTp1pKw2+nu6bTh7IVd+TZWkZAe49aVMC/VRUfmWMKufJsNcRy2O1ZbwmK6zf8Saavw/i5jTc7ZhKNzTlz4b8LOUxY34EzjTMKhT87xK6eCrwmb4XTCxeHX9b4KDh85pGpHQKWEQ1IRUKPHNnxZVnUTW5Dwb8SWJIwGx/T8U1F7EkZpr0oatSahWX0K9Wq2J2H11uBT+xO26Ck9dQ+91icszvpVTzg3z/8ceuondC5UmsqFqUoJh15wPqGpfML4QkL1n1LPbnvC/3vGR0KhY7wPEiLhMSR8PCREwmNI+HhI2JKEessT2rbf7oR27O6qTtvbk9BzA7Pqd6Lak3C3swV2wL0GJowzx990jWMjmmIw+f4Vw+hOihz6dvT9Kyu7cQl9zY3tqvNs9svteuUJt06/ZladfRfni81KqLmBG2sieQ1LmP8cBpnQhJrXqIQd4mW2LTahpssO9Y9JEpi6WE37n0+MynPseyj5D9gBAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAOAqfwCnBkV6lhq6uAAAAABJRU5ErkJggg==" alt="">
+                        <li>Home</li>
+                        <img  width="15" hight="10" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAMgAAADICAMAAACahl6sAAAAe1BMVEX///8AAADb29tPT09bW1tnZ2cfHx+Tk5Pr6+vHx8djY2MXFxeHh4cvLy+fn5/Dw8Pz8/PPz88JCQnj4+MODg6Dg4MlJSWNjY3V1dW0tLT39/empqYTExNzc3N7e3u9vb1EREQuLi6ZmZk/Pz9LS0t9fX2urq5BQUE3NzdTMNbuAAAFDUlEQVR4nO2d2XabMBBAvQDGxgsBCjZLyeKk/v8vbJ0RJD2VQGhj0sx9RWfQtUGymZFYLAiCIAiCIAiCIL4y6XmrzDmdu/dAeWkOyVKL5NBcypk10qbWk+iomzm/mNjX/C4+kzTxXB6XyJzGnegyj8dPsxp3fs7hsTPvsVzu5vRI1ptTGiqzOm3WyXwm++7MUWHgHo2L/nb7oR9tCqfuvL6hoSb2u4itmYBylDm7qipzMd/Y9RW4nBt/MA+jn17LTF5NBh0mzuCUR7NhK4iahWbDDlDAGT3TcdlIuDcdV8iTpU8uhB9uuem4Is7wwVmYhl8h8oP5yFw2cDoLP1dTiFyYj8zFez/bzUbol/fQaxuhOcAt0tgI/er0JslsjL0AG4FthOYAJ7Py54H99HEzuZdwspON2A8Q282UGJPIOCSiAolIQCIqkIgEJKICiUhAIiqQiAQkogKJSGBFJG2r5w0H9pyx4R3ThWXB9rxjz1U7/QlUfPQMpWvNEnnVlP/zqclsrWky6UR23CDWuJO8Sn0r22Dujo6Tn8c9jsi/DmA8VVb81TwKEBH99RE/D3s89w0z/w1J2c4H6dsu6zs4+J20Xat6M3e5joC46FSSrbhV2GW7PXdpvMmEV9bJQJwZ91gTd0k8JboiGF/UYMsauEoYKcOy40vRIPw4IooHdukI0sosx5kjvc0/E7NJmz+uNnBwpuqvaVRDNzPUlxwcd0kR6Cw3IctSwxvXXVKDlVnxpom3ocsOHeyG5lX1wJgWOO+SIrXw+oHKr6vzHikCpQW8ZL83NDTjYy2c88RHUCL+3ElkHkgEGySCDRLBBolgg0SwQSLYIJEJnKtiP0BRmSjity6SNhLLLCP9Ba22RfaSCa9E90G5XZH4UU7jzlVvvZxVkfJF3mO5fNR6yGxVxB/q979oLdywKdKvslzmhwHyvpnO6GVT5Bd0Lxtb9Bp3I4LO00CLIivoXS2RzH9gGU2NQdiiCEvRS+VXWH5jJFk+hEURCC2ZX4EbRWPRt0WR25ShCAa4R/WzjYkEa2XgupdMCUMSo1Y/WzAios0kEW1IZBwSUeIbiOS+MvV0kUj9bPmIiMYUhWse0Z5rJVc+wzSg/TvCighbry+1wwhrq7EC26IIqwHJJIrmu51DNAr1LIp0417SrIbbrZqBMUcWmyIP/aiYRQP0haKJxD8XITZFuk00ZNF6ImRVZNqkqlctYleknLB7mOZOWnZFFouj5LKTWnfvC9sii7g4jGsc9HcXsy7yh7CtjgNUrYk6bxciTiARbJAINkgEGySCDRLBBolgg0SwQSLYIBFskAg2SAQbJIINEsEGiWCDRLBBItggEWyQCDZIBBvfQOS/2RcFyiVfnPdIESgF5b3wCJZ/1M57pAgUE/IWoFzejwj3dUMG2y+PVz8ZwiGHb1rTAcoiE+4KQLjqoi+wBd1iEUNZ2C/uQbZG6ktsecZK6/lrtEK4f7IvsOfZCrqaCMrXWEHiDf3FVbIiPVEdfsrqo129oUyVku1mKn79X7eoQ3Nhs2XCbmmz+G4ub6xJ4PQNpNPo36/MH7KAtC92vVrZ316ftl8xHw2WeG4/NggI/OPpvELE+XTcfWw8no0svT597NWMmnpg/2XgnI9HmZ+nkZUdd2JvPM7c+HJTXStRFD4nt9HLqudyHQ83E8l62tQQHr0ndHv6J4ddpVRXH6dzD7mfSVH/3iAIgiAIgiAI4vvyGwNLWGoBihtFAAAAAElFTkSuQmCC" alt=""> 
+                        <li>Coprate </li>
+                        <img width="25" height="24" src="https://th.bing.com/th/id/OIP.7iYa4_7dQKNgv7tjCo67UAAAAA?w=176&h=180&c=7&r=0&o=5&dpr=1.9&pid=1.7" alt="">
+                        <li>Offer</li>
+                        <img width="20" height="20" src="http://ts1.mm.bing.net/th?id=OIP.jixXH_Els1MXBRmKFdMQPAHaHa&pid=15.1" alt="">
+                        <li>sign in</li>
+                        <img width="20" height="20" src="data:image/png;base64,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" alt=""> 
+                       <li>Cart</li>
+                            
+                        
+                    </ul>
+                    </div>
+                    </div>
+                </Nav>
+            
+            <hr>
+        </body>
+        <body>
+                    <b><h2>What's on your mind?</h2></b><br>
+            
+            <img width="200" height="200" src="https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_288,h_360/MERCHANDISING_BANNERS/IMAGES/MERCH/2024/8/8/2b865d48-f384-42e3-93ba-c2c5b3dc2ee0_PCTilePCTile2.png" alt="">
+            <img width="200" height="200" src="https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_288,h_360/MERCHANDISING_BANNERS/IMAGES/MERCH/2024/7/2/6ef07bda-b707-48ea-9b14-2594071593d1_Pizzas.png" alt="">
+            <img width="200" height="200" src="https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_288,h_360/MERCHANDISING_BANNERS/IMAGES/MERCH/2024/7/2/6ef07bda-b707-48ea-9b14-2594071593d1_North%20Indian.png" alt="">
+            <img widht="200" height="200" src="https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_288,h_360/MERCHANDISING_BANNERS/IMAGES/MERCH/2024/7/2/8f508de7-e0ac-4ba8-b54d-def9db98959e_burger.png" alt="">
+            <img widht="200" height="200" src="https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_288,h_360/MERCHANDISING_BANNERS/IMAGES/MERCH/2024/7/2/6ef07bda-b707-48ea-9b14-2594071593d1_Dosa.png" alt="">   
+            <img width="200" height="200" src="https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_288,h_360/MERCHANDISING_BANNERS/IMAGES/MERCH/2024/8/8/2b865d48-f384-42e3-93ba-c2c5b3dc2ee0_PCTilePCTile2.png" alt="">
+            <img widht="200" height="200" src="https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_288,h_360/MERCHANDISING_BANNERS/IMAGES/MERCH/2024/7/2/6ef07bda-b707-48ea-9b14-2594071593d1_Dosa.png" alt="">   
+        
+            <hr>
+        
+        <h2>Top resturant in Delhi
+        </h2>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/AnpuNZRaLf4?si=yj5_aSmN4mhRskZL" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        <img width="400" height="300" src="https://th.bing.com/th?id=OIP.1YtsxtQ7Re8ujtTy2dME3AAAAA&w=288&h=216&c=8&rs=1&qlt=90&o=6&dpr=1.9&pid=3.1&rm=2" alt="">
+        <img width="200" height="200" src="https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_288,h_360/MERCHANDISING_BANNERS/IMAGES/MERCH/2024/8/8/2b865d48-f384-42e3-93ba-c2c5b3dc2ee0_PCTilePCTile2.png" alt="">
+            <img width="200" height="200" src="https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_288,h_360/MERCHANDISING_BANNERS/IMAGES/MERCH/2024/7/2/6ef07bda-b707-48ea-9b14-2594071593d1_Pizzas.png" alt="">
+            
+        <hr>
+        <img width="200" height="200" src="https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_288,h_360/MERCHANDISING_BANNERS/IMAGES/MERCH/2024/7/2/6ef07bda-b707-48ea-9b14-2594071593d1_North%20Indian.png" alt="">
+        <img width="200" height="200" src="https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_288,h_360/MERCHANDISING_BANNERS/IMAGES/MERCH/2024/8/8/2b865d48-f384-42e3-93ba-c2c5b3dc2ee0_PCTilePCTile2.png" alt="">
+            <img width="200" height="200" src="https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_288,h_360/MERCHANDISING_BANNERS/IMAGES/MERCH/2024/7/2/6ef07bda-b707-48ea-9b14-2594071593d1_Pizzas.png" alt="">
+            
+        <img widht="200" height="200" src="https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_288,h_360/MERCHANDISING_BANNERS/IMAGES/MERCH/2024/7/2/8f508de7-e0ac-4ba8-b54d-def9db98959e_burger.png" alt="">
+        <img width="200" height="200" src="https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_288,h_360/MERCHANDISING_BANNERS/IMAGES/MERCH/2024/7/2/6ef07bda-b707-48ea-9b14-2594071593d1_North%20Indian.png" alt="">
+        
+       <img width="200" height="200" src="https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_288,h_360/MERCHANDISING_BANNERS/IMAGES/MERCH/2024/8/8/2b865d48-f384-42e3-93ba-c2c5b3dc2ee0_PCTilePCTile2.png" alt="">
+       <img widht="200" height="200" src="https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_288,h_360/MERCHANDISING_BANNERS/IMAGES/MERCH/2024/7/2/6ef07bda-b707-48ea-9b14-2594071593d1_Dosa.png" alt="">     
+       
+       <hr>
+       <img width="400" height="300" src="https://th.bing.com/th?id=OIP.1YtsxtQ7Re8ujtTy2dME3AAAAA&w=288&h=216&c=8&rs=1&qlt=90&o=6&dpr=1.9&pid=3.1&rm=2" alt="">
+        
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/maoWldOBDj8?si=oC2nMgwWGCjC-BFJ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        <img width="200" height="200" src="https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_288,h_360/MERCHANDISING_BANNERS/IMAGES/MERCH/2024/8/8/2b865d48-f384-42e3-93ba-c2c5b3dc2ee0_PCTilePCTile2.png" alt="">
+        <img widht="200" height="200" src="https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_288,h_360/MERCHANDISING_BANNERS/IMAGES/MERCH/2024/7/2/6ef07bda-b707-48ea-9b14-2594071593d1_Dosa.png" alt="">     
+        
+       <style>
+            .Playstor {
+                border: 2px solid black;
+                padding: 20px;
+                background-color: lightgray;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="Playstor">
+           
+       
+          <center> 
+         <img width="200" height="150" src="https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto/portal/m/play_store.png " alt="">
+        <img width="200" height="150" src="https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto/portal/m/app_store.png" alt="">
+    </center>
+    </div>
+</body>
+</html>
