@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
+    <title>Document</title>
+<style>
+
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: color #f4f4f4;
+}
+
+.h1{
+    color: blue;
+    box-shadow: 4px 5px 9px gray;
+    text-align: center;
+}
+
+.card{
+    background-color: #fff;
+    padding: 20px;
+    width: 300px;
+    box-shadow: 4px 5px 9px gray;
+    border-radius: 10px;
+    text-align: left;
+
+}
+
+
+
+.h3{
+    margin-bottom: 15px;
+
+}
+
+.form label{
+    display: block;
+    margin-bottom: 6px;
+     text-align: left;
+
+}
+
+.form input {
+    width:100%;
+   
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    padding: 5px;
+    margin-bottom: 10px;
+}
+    
+.button {
+    
+    width: 100%;
+    padding: 5px;
+    background-color: green;
+    color: rgb(212, 20, 20);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    
+}
+
+button:hover {
+    background-color: rgb(31, 139, 228);
+}
+
+
+.p{
+    margin-top: 20px;
+}
+
+.a:hover{
+    text-decoration: underline;
+}
+
+
+
+
+</style>
+
+
+
+
+
+</head>
+<body>
+    <div class="container">
+        <!--Facebook Logo-->
+
+        <h1 style="color: blue;
+        
+        text-align: center; margin-top: 30px;">
+            facebook
+           </h1>
+        <div class="card">
+   
+
+
+   
+
+   <!--Create Account-->
+ 
+   <h3 style="text-align: center;">Create Account</h3>
+
+   <!--Quick start-->
+   <p style="text-align: center;">Quick Start</p>
+   <hr>
+   <!--Form Details start-->
+   <form action=""> 
+
+   <label for="Name">Name:</label><br>
+   <Input style="width: 100%;" type="text" placeholder="Name"><br><br>
+
+
+    <label for="Surname">Surname:</label><br>
+    <input style="width: 100%;" type="text" placeholder="Surname">
+     <br>
+
+    <br>
+
+    <label for="Mobile number">Mobile number:</label>
+    <input style="width: 100%;" type="number">
+    <br><br> 
+
+
+     <label for=" Password">New Password</label>
+     <input style="width: 100%;" type="password"><br><br>
+
+     <label for="Password">Confirm Password
+     </label>
+     <input style="width: 100%;" type="password"><br>
+   <!--Form Details End-->
+
+   <!--Birthday-->
+   <br>
+   <p>Birthday  <img width="15" height="10" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAFwAAABcCAMAAADUMSJqAAAAY1BMVEUAAAD////T09Pi4uIWFhbd3d0sLCwjIyO+vr65ubmzs7NbW1tERERBQUEMDAyOjo709PTt7e1mZmZsbGyenp6lpaVhYWF9fX05OTkyMjJRUVGEhISrq6t1dXXHx8eWlpYcHBx2ta1iAAADU0lEQVRogb2a55qrIBCGx4KxxCCavknM/V/lsYCSiMyg8Xw/99F3CUxH8HAVAUt4mUfhAeAQRnnJExYUhBcBe0Ck/LyDiXYlT8U6eJFk0RSsFGWJff02uM/DebLUn78I7leG3ZgqrObxc3A/o5B7ZXN4M1wc6ehWtflsjfD46sYGuMVEuLi4ols9DYufwtl+CRtgz3B4ipvfjA4PDH5aim51ssMdreRbRxt80VHquszDV657snYdvmq/lU5mePoLNsDDBGeLbfBTBzaFi4W+M9VeTOCrDWXU5Rse/44NEH/ChXMctOkmPuA/sHBdRx3uo4/nzyTojer4JPxKX4NjOW33CDTfYKmlJOiVjXBs4ZWOblU8SUvv4JX9wac31QNbj4L79hoiM2bfPzt850s4tz72fpnYXnG303kPL+xBJRsP8vXyx/oN2Ziw6OCJ/SnlzK979A53Vz78q5v9vbiDI3Yo4UNAvqsjQPYla+ECMdp7R/Lfwx9UwD7b34tEA0dzxKVZKtO88izhmOelDdxuK61uf1zf34q2LVB7UCC/zrSifqOwGFAWEJCqcE3qQNF0vguAObJlwEOdqBEDxMq/FalCHwsujRLAz1NXplJ7QHiYQ+nCLpX3C4oZlJA7sOshapFMLAc0qYwa4jqeKzpFQK+zIrUnDDeUTiEcyHDpPJ5PXQ8dDVdG9MwlkqG3cPFo8trrr7hOQZMPNKUFWk0h3RRldengFxHdidzhOd39ZbPjUA5X9MDVWwtzMBZOD7lh3XhoTHTOTol7sqCLuac5spo0VzgFdBc1CZpQWixUTSmKlPI0eLnUISmhnFPqm6jXm8q+CUIhKnWnZ/1eGaWEllIlBVLNj4opxb/U0HMRw6Is/mn2MsCJPirbFqzh6pWoioXGHhourFXsFEk40sUpDa0ioTtvdG43RlBdbmxyaYd0uJw4NW/13Qd1sOAofbDg1b9ly0pBDXOQptJNX8OcTcdQ2w7Qth39/WxoGRqGlj8bt6aeCb7poHjbEfe2w/ltrxW2vRBZc5UTpt+s/3sJ1fgqMdl86kK6PvM2vfjztr2y9Da9bO3w210Td/gaxYd82QV3qyLOLPnvlsXLr+Y7ibQujR8V1Gs/KpDrbz+HqBZ8DvEPtCohWrSOwY8AAAAASUVORK5CYII=" alt="">
+   </p>
+   
+
+   <input type="date">
+  <br>
+   
+<!--Gender-->
+<br>
+<label for="gender">Gender  <img width="15" height="10" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAFwAAABcCAMAAADUMSJqAAAAY1BMVEUAAAD////T09Pi4uIWFhbd3d0sLCwjIyO+vr65ubmzs7NbW1tERERBQUEMDAyOjo709PTt7e1mZmZsbGyenp6lpaVhYWF9fX05OTkyMjJRUVGEhISrq6t1dXXHx8eWlpYcHBx2ta1iAAADU0lEQVRogb2a55qrIBCGx4KxxCCavknM/V/lsYCSiMyg8Xw/99F3CUxH8HAVAUt4mUfhAeAQRnnJExYUhBcBe0Ck/LyDiXYlT8U6eJFk0RSsFGWJff02uM/DebLUn78I7leG3ZgqrObxc3A/o5B7ZXN4M1wc6ehWtflsjfD46sYGuMVEuLi4ols9DYufwtl+CRtgz3B4ipvfjA4PDH5aim51ssMdreRbRxt80VHquszDV657snYdvmq/lU5mePoLNsDDBGeLbfBTBzaFi4W+M9VeTOCrDWXU5Rse/44NEH/ChXMctOkmPuA/sHBdRx3uo4/nzyTojer4JPxKX4NjOW33CDTfYKmlJOiVjXBs4ZWOblU8SUvv4JX9wac31QNbj4L79hoiM2bfPzt850s4tz72fpnYXnG303kPL+xBJRsP8vXyx/oN2Ziw6OCJ/SnlzK979A53Vz78q5v9vbiDI3Yo4UNAvqsjQPYla+ECMdp7R/Lfwx9UwD7b34tEA0dzxKVZKtO88izhmOelDdxuK61uf1zf34q2LVB7UCC/zrSifqOwGFAWEJCqcE3qQNF0vguAObJlwEOdqBEDxMq/FalCHwsujRLAz1NXplJ7QHiYQ+nCLpX3C4oZlJA7sOshapFMLAc0qYwa4jqeKzpFQK+zIrUnDDeUTiEcyHDpPJ5PXQ8dDVdG9MwlkqG3cPFo8trrr7hOQZMPNKUFWk0h3RRldengFxHdidzhOd39ZbPjUA5X9MDVWwtzMBZOD7lh3XhoTHTOTol7sqCLuac5spo0VzgFdBc1CZpQWixUTSmKlPI0eLnUISmhnFPqm6jXm8q+CUIhKnWnZ/1eGaWEllIlBVLNj4opxb/U0HMRw6Is/mn2MsCJPirbFqzh6pWoioXGHhourFXsFEk40sUpDa0ioTtvdG43RlBdbmxyaYd0uJw4NW/13Qd1sOAofbDg1b9ly0pBDXOQptJNX8OcTcdQ2w7Qth39/WxoGRqGlj8bt6aeCb7poHjbEfe2w/ltrxW2vRBZc5UTpt+s/3sJ1fgqMdl86kK6PvM2vfjztr2y9Da9bO3w210Td/gaxYd82QV3qyLOLPnvlsXLr+Y7ibQujR8V1Gs/KpDrbz+HqBZ8DvEPtCohWrSOwY8AAAAASUVORK5CYII=" alt="">
+</label><br>
+<label for="Men">Men</label>
+<input type="radio" name="Men" id="">
+
+<label for="women">Women</label>
+<input type="radio" name="Men">
+<br><br>
+
+
+<p style="color: rgb(135, 134, 134);">Your contact information may have been uploaded to Facebook by people who use our service. Learn more</p>
+<br><p style="color:rgb(135, 134, 134); ;">Clicking Sign Up means you agree to our Terms , Privacy Policy and Cookie Policy . You may receive SMS notifications from us. You can opt out at any time.</p> 
+
+
+<!--Submit Button-->
+<p style="text-align: center;"><button type="submit" >submit</button></p>
+
+<!--Link-->
+<br>
+<P style="text-align: center;"><a href="./Facebook Login.html">Already have a account</a></P>
+</form>
+
+</div>
+</div>
+</body>
+</html>
